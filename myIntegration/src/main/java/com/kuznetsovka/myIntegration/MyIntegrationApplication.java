@@ -3,6 +3,8 @@ package com.kuznetsovka.myIntegration;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.messaging.Message;
+import org.springframework.messaging.PollableChannel;
 
 import java.util.Collections;
 
