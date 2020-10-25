@@ -13,7 +13,7 @@
 
     <int:channel id="sellsChannel"/>
 
-    <int-http:inbound-channel-adapter id="httpOrders" channel="sellsChannel"
+    <int-http:inbound-channel-adapter id="httpSells" channel="sellsChannel"
                                       supported-methods="POST"
                                       path="/sells"
                                       request-payload-type="com.kuznetsovka.myIntegration.domain.Sell">
