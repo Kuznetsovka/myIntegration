@@ -5,6 +5,6 @@ import org.springframework.context.annotation.ImportResource;
 
 
 @Configuration
-@ImportResource("integration/http-orders-gateway.xml")
+@ImportResource("classpath:/integration/http-orders-gateway.xml")
 public class OrderIntegrationConfig {
 }
